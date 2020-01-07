@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Neucha&display=swap" rel="stylesheet">
+	<title>Всё о CSS</title>
+</head>
+<body>
+	<div class="main">
+		<h1>Всё о CSS</h1>
+		<p>CSS (/siːɛsɛs/ англ. <i>Cascading Style Sheets</i> — каскадные таблицы стилей) — <a href="https://ru.wikipedia.org/wiki/%D0%A4%D0%BE%D1%80%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA">формальный язык</a> описания внешнего вида документа, написанного с использованием <a href="https://ru.wikipedia.org/wiki/%D0%AF%D0%B7%D1%8B%D0%BA_%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%82%D0%BA%D0%B8">языка разметки.</a>
+			<img class="imgg" src="https://hsto.org/webt/qn/nz/3x/qnnz3xb9sbvigez2c97n4hxj5um.jpeg" alt="">
+	
+		<p class="p4">Преимущественно используется как средство описания, оформления внешнего вида <a href="https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%B1-%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">веб-страниц</a>, написанных с помощью <a href="https://ru.wikipedia.org/wiki/%D0%AF%D0%B7%D1%8B%D0%BA_%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%82%D0%BA%D0%B8">языков разметки</a> <a href="https://ru.wikipedia.org/wiki/HTML">HTML</a> и <a href="https://ru.wikipedia.org/wiki/%D0%AF%D0%B7%D1%8B%D0%BA_%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%82%D0%BA%D0%B8">XHTML</a>, но может также применяться к любым <a href="https://ru.wikipedia.org/wiki/XML">XML-документам</a>, например, к <a href="https://ru.wikipedia.org/wiki/SVG">SVG</a> или <a href="https://ru.wikipedia.org/wiki/XUL">XUL</a>.
+	
+		<h1>Использование CSS</h1>
+		<p class="p4">CSS используется создателями <a href="">веб-страниц</a> для задания <a href="https://ru.wikipedia.org/wiki/%D0%A6%D0%B2%D0%B5%D1%82">цветов</a>, <a href="https://ru.wikipedia.org/wiki/%D0%A8%D1%80%D0%B8%D1%84%D1%82">шрифтов</a>, расположения отдельных блоков и других аспектов представления внешнего вида этих веб-страниц. Основной целью разработки CSS являлось отделение описания логической структуры веб-страницы (которое производится с помощью <a href="https://ru.wikipedia.org/wiki/HTML">HTML</a> или других <a href="https://ru.wikipedia.org/wiki/%D0%AF%D0%B7%D1%8B%D0%BA_%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%82%D0%BA%D0%B8">языков разметки</a>) от описания внешнего вида этой веб-страницы (которое теперь производится с помощью <a href="https://ru.wikipedia.org/wiki/%D0%A4%D0%BE%D1%80%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA">формального языка</a> CSS). Такое разделение может увеличить доступность документа, предоставить большую гибкость и возможность управления его представлением, а также уменьшить сложность и повторяемость в структурном содержимом.
+	
+		<p class="p4">Кроме того, CSS позволяет представлять один и тот же документ в различных стилях или <a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D1%82%D0%BE%D0%B4">методах</a> вывода, таких как экранное представление, печатное представление, чтение голосом (специальным голосовым браузером или программой чтения с экрана), или при выводе устройствами, использующими <a href="https://ru.wikipedia.org/wiki/%D0%A8%D1%80%D0%B8%D1%84%D1%82_%D0%91%D1%80%D0%B0%D0%B9%D0%BB%D1%8F">шрифт Брайля</a>.
+	
+		<h1>Способы подключения CSS к документу</h1>
+		<p class="p4">Правила CSS пишутся на формальном языке CSS. Правила могут располагаться как в самом веб-документе, внешний вид которого они описывают, так и во внешних файлах, имеющих формат CSS. Формат CSS — это текстовый файл, в котором содержится перечень правил CSS и комментариев к ним.
+		<center><h4>Стили CSS могут быть подключены или внедрены в описываемый ими веб-документ <b>четырьмя способами:</b></h4></center>
+	
+		<p class="p3">· Когда описание стилей находится в отдельном файле, оно может быть подключено к документу посредством элемента &lt;link&gt;, включённого в элемент&lt;head&gt;:</p>
+		<p class="color">&lt;!DOCTYPE html&gt;
+		<p class="color">&lt;html&gt;
+		   <p class="color">&lt;head&gt;
+		      <p class="p4">.....
+		     <p class="color">&lt;link rel="stylesheet" type="text/css" href="style.css"&gt;
+		  <p class="color"> &lt;/head&gt;
+		   <p class="color">&lt;body&gt;
+		      <p class="p4">.....
+		   <p class="color">&lt;/body&gt;
+		<p class="color">&lt;/html&gt;
+		<p class="p3">· Когда файл стилей размещается отдельно от родительского документа, он может быть подключён к документу инструкцией @import в элементе&lt;style&gt;:
+		<p class="color">&lt;!DOCTYPE html&gt;
+		<p class="color">&lt;html&gt;
+		<p class="color">&lt;head&gt;
+		      <p class="p3">.....
+		     <p class="color"> &lt;style media="all"&gt;
+		        <p class="color"> @import url(style.css);
+		     <p class="color"> &lt;/style&gt;
+		   <p class="color">&lt;/head&gt;
+		<p class="color">&lt;/html&gt;
+		<p class="p3">· Когда стили описаны внутри документа, они могут быть включены в элемент &lt;style>, который, включается в элеменет &lt;head&gt;:
+		<p class="color">&lt;!DOCTYPE html&gt;
+		<p class="color">&lt;html&gt;
+		   <p class="color">&lt;head&gt;
+		     <p class="p4"> .....
+		      <p class="color">&lt;style&gt;
+		         <p class="color">body { 
+		            <p class="color">color: red;
+		         <p class="color">}
+		     <p class="color"> &lt;/style&gt;
+		   <p class="color">&lt;/head&gt;
+		   <p class="color">&lt;body&gt;
+		      <p class="p4">.....
+		   <p class="color">&lt;/body&gt;
+		<p class="color">&lt;/html&gt;
+		<p class="p3">· Когда стили описаны в теле документа, они могут располагаться в атрибутах отдельного элемента
+		<p class="color">&lt;!DOCTYPE&gt;
+		<p class="color">&lt;html&gt;
+		   <p class="color">&lt;head&gt;
+		     <p class="p4"> .....
+		   <p class="color">&lt;/head&gt;
+		   <p class="color">&lt;body&gt;
+		     <p class="color"> &lt;p style="font-size: 20px; color: green; font-family: arial, helvetica, sans-serif"&gt;
+		        <p class="p4"> .....
+		      <p class="color">&lt;/p&gt;
+		  <p class="color"> &lt;/body&gt;
+		<p class="color">&lt;/html&gt;
+		<p class="p3">· В первых двух случаях к документу применены внешние стили, а во вторых — внутренние стили.
+
+		<p class="p3">Для добавления CSS к XML-документу последний должен содержать специальную ссылку на файл стилей:</p>
+  		<p class="color">&lt;?xml-stylesheet type="text/css" href="style.css"?&gt;</p>
+  		<a class="navigation" href="index.html">На главную ===></a>
+		<a class="navigation" href="index2.html">Теги HTML</a>
+		<a class="navigation" href="Project's/index4.html">Единицы измерения в CSS</a>
+		<a class="navigation" href="Project's/index5.html">Свойства Display</a>
+		</div>
+	
+</body>
+</html>
