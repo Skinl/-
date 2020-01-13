@@ -1,0 +1,17 @@
+table {
+	border: 3px solid green;
+	border-collapse: collapse;/*separate*/
+	width: 70%;
+	margin: auto;
+	margin-top: 40px;
+}
+td,th {
+	border: 2px groove green;
+	padding: 7px;
+}
+th {
+	background-color: rgb(125,0,89);
+}
+body {
+	background-image: url(http://stoloboi.ru/images/spring/spring-865.jpg);
+}
