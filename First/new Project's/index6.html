@@ -6,81 +6,79 @@
 	<title>CSS селекторы</title>
 </head>
 <body>
-	<d class="main" >
+	
 	<p><center><h1>CSS селекторы</h1></center></p>
 	<table>
-		<tr>
+		<tr id="a1">
 			<th>CSS селекторы</th>
 			<th>Пример</th>
 			<th>Описание</th>
 		</tr>
-		<tr>
+		<tr id="a2">
 			<td>.class</td>
 			<td>.myClass</td>
 			<td>Выбирает все элементы с классом myClass(class="myClass")</td>
 		</tr>
-		<tr>
-			<td>#id</td>
+		<tr id="a3">
+			<td class="td">#id</td>
 			<td>#main</td>
 			<td>Выбирает элемент с индефикатором main(id="main)"</td>
 		</tr>
-		<tr>
+		<tr id="a4">
 			<td>*</td>
 			<td>*</td>
 			<td>Выбирает все элементы</td>
 		</tr>
-		<tr>
+		<tr style="color: red" id="a5">
 			<td>Элемент</td>
 			<td>div</td>
 			<td>Выбор всех элементов &ltdiv&gt</td>
 		</tr>
-		<tr>
+		<tr id="a6">
 			<td>элемент, элемент</td>
 			<td>div, span</td>
 			<td>Выбор всех элементов &ltdiv&gt &ltspan&gt</td>
 		</tr>
-		<tr>
+		<tr id="a7">
 			<td>[атрибут]</td>
 			<td>[href]</td>
 			<td>Все элементы с атрибутом href</td>
 		</tr>
-		<tr>
+		<tr id="a8">
 			<td>[атрибут="значение"]</td>
 			<td>[href="https://vk.com/"]</td>
 			<td>Выбирает все элементы с атрибутом href, значение которого ТОЧНО совпадает со значением указанным в селекторе</td>
 		</tr>
-		<tr>
+		<tr id="a9">
 			<td>[атрибут~="значение"]</td>
 			<td>href~="https://vk.com"</td>
 			<td>Выбирает все элементы с атрибутов href, в значении которого(в любом месте)встречается подстрока(в виде отдельного слова) "vk.com"</td>
 		</tr>
-		<tr>
+		<tr id="a10">
 			<td>[атрибут~="значение"]</td>
 			<td>[href*="https:vk.com"]</td>
 			<td>Выбирает все элементы с атрибутов href, в значении которого(в любом месте)встречается подстрока(в виде отдельного слова или его части) "vk.com"</td>
 		</tr>
-		<tr>
+		<tr id="a11">
 			<td>Элемент элемент</td>
 			<td>div span</td>
 			<td>Выбор всех элементов &ltspan&gt внутри &ltdiv&gt</td>
 		</tr>
-		<tr>
+		<tr id="a12">
 			<td>элемент+элемент</td>
 			<td>div+p</td>
 			<td>Выбирает все элементы &ltp&gt, расположенные сразу после элементов &ltdiv&gt</td>
 		</tr>
-		<tr>
+		<tr id="a13">
 			<td>элемент~элемент</td>
 			<td>p~div</td>
 			<td>Выбирает все элементы &ltdiv&gt, расположенные сразу перед элементом &ltp&gt</td>
 		</tr>
-		<tr>
+		<tr id="a14">
 			<td>элемент: nth-child(номер)</td>
 			<td>div:nth-child(3)</td>
 			<td>Выбирает третий элемент,который лежит внутри &ltdiv&gt </td>
 		</tr>
 	</table>
-	</d>
-	
 </body>
 </html>

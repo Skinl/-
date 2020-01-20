@@ -10,12 +10,11 @@ table {
 td,th {
 	border: 2px groove green;
 	padding: 7px;
+	background-color: green;
 	color: white;
-	background-color: rgb(125,0,89);
+	
 }
-th {
-	background-color: rgb(125,0,89);
-}
+
 body {
 	background-image: url(https://million-wallpapers.ru/wallpapers/4/14/9599829852371276923.jpg);
 	
@@ -36,3 +35,20 @@ h1 {
 	border-radius: 10px;
 	padding: 10px 0;
 }
+
+#a3 {
+	
+	background-color: blue;
+}
+#a2>td:nth-child(1) {
+background-color: blue;
+}
+
+#a5>td {
+	color: red;
+}
+#a3>td:nth-child(3) {
+	background-color: pink;
+}
+#a9,#a10,#a11,#a12,#a13,#a14>td:nth-child(2) {
+	background-color: gold;
