@@ -17,14 +17,13 @@ td,th {
 
 body {
 	background-image: url(https://million-wallpapers.ru/wallpapers/4/14/9599829852371276923.jpg);
-	
-	
+	background-size: cover;
 
 }
-background-image {
+/*background-image {
 	height: 100vh;
 	width: 100vw; 
-}
+}*/
 
 h1 {
 	color: rgb(62, 73, 160);
@@ -48,7 +47,38 @@ background-color: blue;
 	color: red;
 }
 #a3>td:nth-child(3) {
-	background-color: pink;
+	background-color: hotpink;
 }
-#a9,#a10,#a11,#a12,#a13,#a14>td:nth-child(2) {
+#a9> {
 	background-color: gold;
+}
+#a10>td:nth-child(2) {
+
+	background-color: gold;	
+}
+
+#a11>td:nth-child(2) {
+
+	background-color: gold;
+
+}
+#a12>td:nth-child(2){
+
+	background-color: gold;
+	
+}
+#a13>td:nth-child(2){
+
+	background-color: gold;
+	
+}
+#a14>td:nth-child(2){
+
+	background-color: gold;
+	
+}
+
+#a8+tr:nth-child(2) {
+	color: black;
+}
+
