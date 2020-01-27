@@ -1,0 +1,23 @@
+body {
+	background-color: #eee;
+}
+.img-box { /*количество колонок*/
+	column-count: 4;
+	/*Отступы между колонками*/
+	column-gap: 5px 0;
+	width: 80%;
+	margin: auto;
+
+}
+.image {
+	max-width: 100%;
+	display: block;
+}
+.img-link {
+	display: block;
+
+}
+/*Стили картинки после картинки*/
+.img-link + .img-link {
+	margin: 5px 0;
+}

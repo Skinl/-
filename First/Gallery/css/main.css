@@ -38,7 +38,6 @@ body {
 	margin: 5px;
 }
 p {
-	padding-left: 225px;/*Отступ слева*/
 	font-size: 100px;/*Размер текста*/
 	font-family: 'Montserrat', sans-serif;/*Семья текста*/
 
@@ -53,5 +52,10 @@ p {
 	margin-top: 10px;
 	background-color: pink;
 	box-shadow: 0 0 30px 5px rgba(0,0,255,0.5);
+	text-align: center;
+	width: calc(100% - 10px);
+}
+a {
+	border-radius: 10px;
 }
 		
