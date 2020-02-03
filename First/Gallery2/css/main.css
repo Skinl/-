@@ -15,9 +15,30 @@ body {
 }
 .img-link {
 	display: block;
+	transition: 1s linear;
 
 }
 /*Стили картинки после картинки*/
 .img-link + .img-link {
 	margin: 5px 0;
 }
+.img-link:hover {
+	transition: 1s linear;
+	/*Размытие*/
+	/*filter: blur(2px);*/
+	/*Яркость*/
+	/*filter: brightness(1.5);*/
+	/*Контрастность*/
+	/*filter: contrast(1.2);*/
+	/*filter: /*Перевод в черно-белое*/ /*grayscale(1.2) drop-shadow(-50px 0 2px red);*/
+	/*filter: /*Перевод в черно-белое*/ /*grayscale(1.2)
+	filter:/*Отбрасывание тени*//*drop-shadow(-50px 0 2px red);*/
+	/*Меняет цвета изображения от цветового круга*/
+	/*filter: hue-rotate(360deg);*/
+	/*Делает негатив изображения*/
+	/*filter: invert(1);*/
+	/*Насыщенность*/
+	/*filter: saturate(2);*/
+	/*Эффект старины*/
+	/*filter:sepia(1);*/
+	}
