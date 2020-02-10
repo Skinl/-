@@ -104,30 +104,44 @@
 .h1:hover {
 	transition: 1.5s;
 	width: 400px;
+	cursor: pointer;
 }
 
 h1 {
+	color: white;
 	opacity: 0;
 	transition: 0.4s;
+}
+
+h2 {
+	opacity: 0;
+	transition: 0.4s;
+	text-align: center;
+	color: white;							
 }
 
 .h1:hover h1 {
 	opacity: 1;
 	transition: 1.5s; 
 }
+div:hover h2 {
+	opacity: 1;
+}
 
 #rectangle:hover #square {
 	height: 100%;
 	transition: 2s;  
+	cursor: pointer;
 }
 #rectangle1:hover #square1 {
 	height: 100%;
 	transition: 0.5s; 
+	cursor: pointer;
 }
 #rectangle2:hover #square2 {
 	height: 100%;
 	transition: 4s;
-	cursor: all-scroll;
+	cursor:pointer;
 }
 /*ease-in-out*/
 

@@ -1,0 +1,20 @@
+.круг {
+	width:255px; 
+	height:255px;
+	border: 10px black ridge;
+	position: relative;
+	margin: auto;
+	margin-top: 250px;
+	border-radius: 150px;
+}
+.vk {
+	position: absolute;
+	transition: 0.5s linear;
+}
+.vk:hover {
+	filter: opacity(0.01);
+	transition: 0.5s linear;
+	cursor: not-allowed;
+	
+	
+}
