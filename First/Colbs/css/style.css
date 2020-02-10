@@ -6,6 +6,10 @@
 	-moz-box-sizing: box;
 	-webkit-box-sizing: border-box;
 }
+body {
+	background: url(https://teachengineering.org/content/spfun_/maker_challenges/spfun_rgbcolor_maker1_image1.png);
+
+}
 
 /*body {
 */	/*background: url(https://million-wallpapers.ru/wallpapers/4/14/9599829852371276923.jpg);*//*Изображение фона*/
@@ -14,7 +18,7 @@
 }*/
 
 .main {
-	border: dashed 10px rgb(143, 143, 143);
+	border: dashed 10px black;
 	display: flex;
 	width: 70%;
 	height: 70%;
