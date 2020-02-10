@@ -1,0 +1,41 @@
+@media all and (max-width: 1111px) {
+	.img_link {
+		max-width: initial;
+		max-height: initial;
+		width: 95vw;
+		height: calc(100vw / 16*9);
+		margin: 5px 5px;
+	}
+}
+@media all and (min-width: 1200px) {
+
+	.img_link:hover {
+		/*Непрозрачность*/
+		/*opacity: 1;*/
+		/*Плавность анимации*/
+		transition: 2s;
+		/*если - то против если + то по часовой стрелке*/
+		transform: scale(1.1) rotate(-10deg) translate(-200px,-10px);
+	}
+
+
+}
+@media all and (max-width: 1000px) {
+	p {
+	font-size: calc(100% -20px);/*Размер текста*/
+	font-family: 'Playfair Display', serif;/*Семья текста*/
+
+	
+}
+.b {
+	border: double rgb(255,0,0);/*Рамка*/
+	border-width: 20px;/*Ширина рамки*/
+	width: 90%;
+	margin: auto;
+	border-radius: 10px;
+	margin-top: 10px;
+	background-color: pink;
+	box-shadow: 0 0 30px 5px rgba(255,0,0,0.7);
+	text-align: center;
+	width: calc(100% - 10px);
+}	

@@ -1,0 +1,24 @@
+
+#прямоуг {
+	width: 500px;
+	height: 50px;
+	border: black 5px ridge;
+	background-color: #eee;
+	position: relative;
+	border-radius: 10px;
+	
+}
+#шкала {
+	width: 100px;
+	height: 50px;
+	background: blue;
+	position: absolute;
+	bottom: 0;
+	transition: 1s; 
+}
+#шкала:hover {
+	width: 500px;
+	border-radius: 10px;
+	transition: 1s;
+}
+
