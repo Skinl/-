@@ -1,0 +1,56 @@
+.b {
+	display: none;
+}
+.h {
+	display: none;
+}
+.e {
+	display: none;
+}
+.l{
+	display: none;
+}
+.l© {
+	display: none;
+}
+.o {
+	display: none;
+}
+
+@media all and (min-width: 600px) and (max-width: 749px) {
+	.h{
+		border: ridge 10px silver;
+		color: gold;
+		display: block;
+	}
+}
+@media all and (min-width: 750px) and (max-width: 899px) {
+	.e{
+		border: ridge 10px black;
+		color: purple;
+		display: block;
+	}
+}
+@media all and (min-width: 900px) and (max-width: 1199px) {
+	.l{
+		border: ridge 10px magenta;
+		color: blue;
+		display: block;
+	}
+}
+@media all and (min-width: 1200px) and (max-width: 1599px) {
+	.l©{
+		font-size: 100px;
+		color: red;
+		display: block;
+	}
+}
+@media all and (min-width: 1600px) and (max-width: 1900px) {
+	.o{
+		font-size: 50px;
+		border: ridge 10px rgb(45,76,255);
+		color: green;
+		border-radius: 10px;
+		display: block;
+	}
+}
