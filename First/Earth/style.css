@@ -1,0 +1,305 @@
+html {
+  height:100%;
+}
+
+body {
+	background-image: url(https://www.allstick.ru/@s/image-cache/d8f/d8fbb02c3e75-u..product~19~19501~5bd95d8d5ebbb.fit.max.w.1000~xgxgxgx.jpg);
+	background-size: cover;
+}
+.circle1 {
+	background-image: url(фиолетовый.jpg);
+	background-size: cover;
+	width: 100px;
+	height: 100px;
+	margin-left: 100px;
+	margin-top: 100px;
+	animation: purple linear 5s infinite;
+	
+}
+.circle2 {
+	background-image: url(синий.jpg);
+	background-size: cover;
+	width: 100px;
+	height: 100px;
+	margin-left: 200px;
+	margin-top:  -120px;
+	animation: blue linear 4s infinite;
+
+	
+}
+.circle3 {
+	background-image: url(зеленый.jpg);
+	background-size: cover;
+	width: 100px;
+	height: 100px;
+	margin-left: 100px;
+	margin-top: -20px;
+	animation: green linear 3s infinite;
+	
+}
+.circle4 {
+	background-image: url(красный.jpg);
+	background-size: cover;
+	width: 100px;
+	height: 100px;
+	margin-left: 202px;
+	margin-top: -122px;
+	animation: red linear 2s infinite;
+	
+}
+.circle5 {
+	background-image: url(фиолетовый.jpg);
+	background-size: cover;
+	width: 100px;
+	height: 100px;
+	margin-left: 1300px;
+	margin-top: -215px;
+	animation: purple linear 5s infinite;
+	
+}
+.circle6 {
+	background-image: url(синий.jpg);
+	background-size: cover;
+	width: 100px;
+	height: 100px;
+	margin-left: 1402px;
+	margin-top: -120px;
+	animation: blue linear 4s infinite;
+
+	
+}
+.circle7 {
+	background-image: url(зеленый.jpg);
+	background-size: cover;
+	width: 100px;
+	height: 100px;
+	margin-left: 1300px;
+	margin-top: -20px;
+	animation: green linear 3s infinite;
+	
+}
+.circle8 {
+	background-image: url(красный.jpg);
+	background-size: cover;
+	width: 100px;
+	height: 100px;
+	margin-left: 1402px;
+	margin-top: -122px;
+	animation: red linear 2s infinite;
+	
+}
+.circle9 {
+	background-image: url(фиолетовый.jpg);
+	background-size: cover;
+	width: 100px;
+	height: 100px;
+	margin-left: 100px;
+	margin-top: 300px;
+	animation: purple linear 5s infinite;
+	
+}
+.circle10 {
+	background-image: url(синий.jpg);
+	background-size: cover;
+	width: 100px;
+	height: 100px;
+	margin-left: 202px;
+	margin-top: -122px;
+	animation: blue linear 4s infinite;
+
+	
+}
+.circle11 {
+	background-image: url(зеленый.jpg);
+	background-size: cover;
+	width: 100px;
+	height: 100px;
+	margin-left: 100px;
+	margin-top: -18px;
+	animation: green linear 3s infinite;
+	
+}
+.circle12 {
+	background-image: url(красный.jpg);
+	background-size: cover;
+	width: 100px;
+	height: 100px;
+	margin-left: 202px;
+	margin-top: -122px;
+	animation: red linear 2s infinite;
+	
+}
+.circle13 {
+	background-image: url(фиолетовый.jpg);
+	background-size: cover;
+	width: 100px;
+	height: 100px;
+	margin-left: 1302px;
+	margin-top: -225px;
+	animation: purple linear 5s infinite;
+	
+}
+.circle14 {
+	background-image: url(синий.jpg);
+	background-size: cover;
+	width: 100px;
+	height: 100px;
+	margin-left: 1404px;
+	margin-top: -121px;
+	animation: blue linear 4s infinite;
+
+	
+}
+.circle15 {
+	background-image: url(зеленый.jpg);
+	background-size: cover;
+	width: 100px;
+	height: 100px;
+	margin-left: 1302px;
+	margin-top: -20px;
+	animation: green linear 3s infinite;
+	
+}
+.circle16 {
+	background-image: url(красный.jpg);
+	background-size: cover;
+	width: 100px;
+	height: 100px;
+	margin-left: 1404px;
+	margin-top: -122px;
+	animation: red linear 2s infinite;
+	
+}
+.circle1 .circle2 .circle3 .circle4 .circle5 .circle6 .circle7 .circle8  .circle9 .circle10 .circle11 .circle12  .circle13 .circle14 .circle15 .circle16  {
+	position: absolute;
+}
+
+@keyframes purple{
+	0%  {
+	filter: opacity(0);
+	transition: 6s;
+	}
+	50% {
+	filter: opacity(1);
+	transition: 6s;
+}
+	100%  {
+	filter: opacity(0);
+	transition: 6s;
+
+	}
+}
+@keyframes blue {
+	0% {
+	filter: opacity(1);
+	transition: 6s;
+	}
+	50% {
+	filter: opacity(0);
+	transition: 6s;
+}
+	100% {
+	filter: opacity(1);
+	transition: 6s;
+
+	}
+}
+@keyframes green  {
+	0% {
+	filter: opacity(0);
+	transition: 6s;
+	}
+	50% {
+	filter: opacity(1);
+	transition: 6s;
+}
+	100% {
+	filter: opacity(0);
+	transition: 6s;
+
+	}
+}
+@keyframes red  {
+	0% {
+	filter: opacity(1);
+	transition: 6s;
+	}
+	50% {
+	filter: opacity(0);
+	transition: 6s;
+}
+	100% {
+	filter: opacity(1);
+	transition: 6s;
+
+	}
+}
+@keyframes write {
+	0% {
+		width: 0;
+	}
+	50% {
+		width: 100%;
+		color:red;
+	}
+	100% {
+		width: 0;
+		color: blue;
+
+	}
+}
+
+.text{
+	overflow: hidden;
+	font-family: monospace;
+	white-space: nowrap;
+	letter-spacing: .1em;
+	animation: write 10s steps(180, end) infinite;
+	position: absolute;
+
+}
+h2 {
+	margin-left: 635px;
+	margin-top: -200px;
+}
+#прямоуг {
+	width: 500px;
+	height: 50px;
+	border: black 5px ridge;
+	background-color: #eee;
+	position: relative;
+	border-radius: 10px;
+	margin-left: 550px;
+	margin-top: -250px
+	
+}
+#шкала {
+	width: 0px;
+	height: 50px;
+	background: pink;
+	position: absolute;
+	bottom: 0;
+	transition: 1s; 
+}
+@keyframes S {
+	0% {
+		width: 0px;
+		transition: 1s;
+	}
+	50%{
+		width: 500px;
+		transition: 1s;
+		background-color: red;
+	}
+	100% {
+		width: 0px;
+		transition: 1s;
+		background-color: blue;
+	}
+}
+
+#прямоуг>#шкала {
+	animation: S 10s linear infinite;
+	width: 500px;
+}
+

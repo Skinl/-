@@ -12,5 +12,5 @@
 	font-family: monospace;
 	white-space: nowrap;
 	letter-spacing: .1em;
-	animation: write 2s steps(60, end);
+	animation: write 2s steps(60, end) infinite;
 }	
