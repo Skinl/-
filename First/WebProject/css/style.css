@@ -14,11 +14,11 @@ html {
 	font-family: 'Open Sans', sans-serif;
 }
 .nav-container {
-	/*position: absolute;*/
+	position: fixed;
 	height: 70px;
-	padding: 0 100px;
 	display: flex;
 	width: 100%;
+	padding: 0 3%;
 	-ms-align-items: center;
 	align-items: center;
 	justify-content: space-between;
@@ -29,22 +29,24 @@ html {
 	display: flex;
 	width: 60%;
 	justify-content: flex-end;
-	background-color: ;
-
 }
 .nav-link {
 	text-decoration: none;
 	color: black;
-	display: inline-block;
 	font-size: 1.5rem;
-}
-.nav-link + .nav-link {
-	margin-left: 10%;
+	/*пробелы между буквами*/
+	letter-spacing: 0.5px;
+	padding: 10px 15px;
 }
 .logo {
 	font-size: 1.8rem;
 	font-weight: bold;
+	width: 200px;
 	
+}
+.search-container {
+	width: 15%;
+	margin-left: 5px;
 }
 #search {
 	background-image: url(../img/search.png);
@@ -54,7 +56,12 @@ html {
 	border: none;
 	padding-left: 20px;
 	font-size: 1.5rem;
-	outline: none;}
+	outline: none;
+}
+#search:focus {
+	border-bottom: 2px solid blue;
+	width: 90%;
+}
 
 
 .header {
@@ -66,6 +73,8 @@ html {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	
+	
 
 
 }
@@ -79,16 +88,55 @@ html {
 	right: 0;
 	left: 0;
 	background-color: rgba(0,0,0,0.3);
+
 }
 .box {
 	z-index: 10;
 	text-align: center;
+	margin-top: 250px;
 
 }
 h1 {
 	font-size: 5rem;
+	letter-spacing: 1px;
 
 }
 p {
 	font-size: 1.6rem;
+	margin-top: 20px;
+	letter-spacing: 0.5px;
+}
+.header-btn  {
+	width: 200px;
+	height: 60px;
+	font-size: 1.6rem;
+	margin-top: 40px;
+	border-radius: 10px;
+	outline: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 0.75px;
+}
+.green	{
+	/*отступ правой кнопки от левой*/
+	margin-left: 20px;
+	background-color: purple;
+	border: 2px solid purple;
+	color: white;
+}
+.tsp {
+	background-color: brown;
+	border: 2px solid brown;
+	color: orange;
+}
+.img {
+	display: block;
+	
+
+}
+.img>img {
+	align-items: center;
+	width: 50px;
+	margin-top: 150px;
+
 }
