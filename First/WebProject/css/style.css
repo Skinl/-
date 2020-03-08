@@ -37,6 +37,13 @@ html {
 	/*пробелы между буквами*/
 	letter-spacing: 0.5px;
 	padding: 10px 15px;
+	transition: 0.8s;
+	border-spacing: 5px;
+}
+.nav-link:hover {
+	background-color: black;
+	color: white;
+	transition: 0.8s;
 }
 .logo {
 	font-size: 1.8rem;
@@ -139,4 +146,14 @@ p {
 	width: 50px;
 	margin-top: 150px;
 
+}
+.first-item {
+	letter-spacing: 1px;
+	display: block;
+}
+.icon {
+	margin-left: 100px;
+}
+.first {
+	margin-left: 550px;
 }
