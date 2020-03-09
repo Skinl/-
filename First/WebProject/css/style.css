@@ -40,11 +40,7 @@ html {
 	transition: 0.8s;
 	border-spacing: 5px;
 }
-.nav-link:hover {
-	background-color: black;
-	color: white;
-	transition: 0.8s;
-}
+
 .logo {
 	font-size: 1.8rem;
 	font-weight: bold;
@@ -103,17 +99,17 @@ html {
 	margin-top: 250px;
 
 }
-h1 {
+.box>h1 {
 	font-size: 5rem;
 	letter-spacing: 1px;
 
 }
-p {
+.box>p {
 	font-size: 1.6rem;
 	margin-top: 20px;
 	letter-spacing: 0.5px;
 }
-.header-btn  {
+.header-btn,.readmore  {
 	width: 200px;
 	height: 60px;
 	font-size: 1.6rem;
@@ -130,11 +126,13 @@ p {
 	background-color: purple;
 	border: 2px solid purple;
 	color: white;
+	transition: 0.8s;
 }
 .tsp {
 	background-color: brown;
 	border: 2px solid brown;
 	color: orange;
+	transition: 0.8s;
 }
 .img {
 	display: block;
@@ -147,13 +145,72 @@ p {
 	margin-top: 150px;
 
 }
-.first-item {
-	letter-spacing: 1px;
-	display: block;
+.vac {
+	color: white;
+}
+
+/*первый экран*/
+.first {
+	text-align: center;
+	padding: 100px 0;
+}
+h2 {
+	font-size: 4rem;
+	margin-bottom: 2rem;
+	letter-spacing: 0.75px;
+}
+.text {
+	font-size: 1.4rem;
+	/*высота строки*/
+	line-height: 1.4;
+	font-weight: 400;
+	max-width: 700px;
+	margin: auto;
+	letter-spacing: 0.75px;
+}
+.first-box {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin:auto;
+	margin-top: 120px;
 }
 .icon {
-	margin-left: 100px;
+	display: block;
+	margin: auto;
+	width: 80px;
 }
-.first {
-	margin-left: 550px;
+.first-item {
+	width: 30%;
+}
+h3 {
+	font-size: 2rem;
+	margin: 2.5rem 0;
+	letter-spacing: 0.75px;
+}
+/*второй экран*/
+.second {
+	background-color: #FFE340
+}
+.second-box {
+	flex-wrap: wrap;
+	max-width: 1000px;
+}
+.second-item {
+	width: calc(100%/3 - 2%);
+	background-color: white;
+	margin: 1%;
+	padding: 6% 2%;
+	transition: ease-in;
+	transition: 0.8s;
+}
+.readmore {
+	background: transparent;
+	border: 2px solid;
+	color: black;
+	width:; 
+	height:;
+}
+.second-item:hover .readmore{
+	color: white;
 }

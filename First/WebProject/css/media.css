@@ -1,0 +1,38 @@
+@media all and (min-width: 1150px) {
+	/*анимация кнопок*/
+	.nav-link:hover {
+		background-color: black;
+		color: white;
+		transition: 0.8s;
+	}
+
+	.tsp:hover {
+		background-color: purple;
+		border: 2px solid purple;
+		color: white;
+		transition: 0.8s;
+	}
+
+	.green:hover {
+		background-color: brown;
+		border: 2px solid brown;
+		color: orange;
+		transition: 0.8s;
+	}
+
+	.second-item:hover {
+		background-color: brown;
+		color: white;
+		transform: scale(1.05); 
+		box-shadow: 0 0 40px 5px rgba(0,0,0,0.3);
+		cursor: pointer;
+		transition: 0.8s;
+	}
+	
+	.second-item:hover .readmore{
+		color: white;
+	}
+	.readmore:hover {
+		cursor: pointer;
+	}
+}
