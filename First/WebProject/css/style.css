@@ -24,11 +24,14 @@ html {
 	justify-content: space-between;
 	background-color: white;
 	z-index: 100;
+	border-bottom: 2px black ridge;
 }
 .topnav {
 	display: flex;
 	width: 60%;
 	justify-content: flex-end;
+	-ms-align-items: center;
+	align-items: center;
 }
 .nav-link {
 	text-decoration: none;
@@ -38,7 +41,7 @@ html {
 	letter-spacing: 0.5px;
 	padding: 10px 15px;
 	transition: 0.8s;
-	border-spacing: 5px;
+
 }
 
 .logo {
@@ -46,10 +49,12 @@ html {
 	font-weight: bold;
 	width: 200px;
 	
+	
 }
 .search-container {
 	width: 15%;
 	margin-left: 5px;
+	
 }
 #search {
 	background-image: url(../img/search.png);
@@ -190,7 +195,7 @@ h3 {
 }
 /*второй экран*/
 .second {
-	background-color: #FFE340
+	background-color: #FFE340;
 }
 .second-box {
 	flex-wrap: wrap;
@@ -326,4 +331,52 @@ svg {
 .second-item:hover .silver {
 	fill: silver;
 	transition: 0.8s;
+}
+/*Вкладки*/
+.tabs {
+	width: 80%;
+	margin: auto;
+	padding: 0;
+	margin-top: 60px;
+}
+.tabs>input {
+	display: none;
+}
+.content {
+	display: none;
+	padding:12px;
+	margin-top: 30px;
+}
+.tabs>label {
+	display: inline-block;
+	background-color: white;
+	font-size: 2rem;
+	border: 2px solid #FFE340;
+	padding: 5px 10px;
+	width: 25%;
+	cursor: pointer;
+}
+.tabs>label[for="tab_2"] {
+	margin-left: 20px;
+}
+.tabs>label[for="tab_3"] {
+	margin-left: 20px;
+}
+.tabs>input:checked + label {
+	background-color: #FFE340;
+	color: white;	
+}
+#tab_1:checked ~ #txt1, 
+#tab_2:checked ~ #txt2,
+#tab_3:checked ~ #txt3 {display: block;}
+
+.galery-box {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 100%;
+}
+.img {
+	width: 30%;
+	margin-top: 3%;
 }

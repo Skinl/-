@@ -36,3 +36,39 @@
 		cursor: pointer;
 	}
 }
+@media all and (max-width: 768px) {
+
+	.nav-container{
+		overflow: auto;
+		white-space: nowrap;
+	}
+	.logo, .search-container, .topnav {
+		display: inline-block;
+	}
+	h1 {
+		font-size: 9vw;
+	}
+	.header-btn{
+		width: 90vw;
+		height: 60px;
+		margin-top: 15px; 
+	}
+	.green {
+		margin-left: 0;
+	}
+
+	.first-item, .second-item {
+		width: 90%;
+		margin: 20px auto;
+		padding-left:10%;
+		padding-right:10%;
+	}
+	.first-box {
+		flex-wrap: wrap;
+		margin-top: 50px;
+	}
+	.text {
+		width: 80%;
+		font-size: 2rem;
+	}
+}
