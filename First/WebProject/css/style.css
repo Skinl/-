@@ -211,6 +211,119 @@ h3 {
 	width:; 
 	height:;
 }
+svg {
+	width:80px;
+}
+
 .second-item:hover .readmore{
 	color: white;
+}
+.second-item .color {
+	
+	transition: 0.8s;
+}
+.second-item:hover .color {
+	fill: gold;
+	transition: 0.8s;
+}
+.second-item .color2 {
+	
+	transition: 0.8s;
+}
+.second-item:hover .color2 {
+	fill: silver;
+	transition: 0.8s;
+}
+.second-item .color3 {
+	
+	transition: 0.8s;
+}
+.second-item:hover .color3 {
+	fill: #eee;
+	transition: 0.8s;
+}
+.second-item .color4 {
+	
+	transition: 0.8s;
+}
+.second-item:hover .color4 {
+	fill: green;
+	transition: 0.8s;
+}
+.second-item .blue {
+	transition: 0.8s;
+}
+.second-item:hover .blue {
+	fill: rgb(50, 188, 255);
+	transition: 0.8s;
+}
+.second-item .red {
+	transition: 0.8s;
+}
+.second-item:hover .red {
+	fill: rgb(211, 65, 8);
+	transition: 0.8s;
+}
+.second-item .s {
+	transition: 0.8s;
+}
+.second-item:hover .s {
+	fill: rgb(50, 188, 255);
+	transition: 0.8s;
+}
+.second-item .a {
+	transition: 0.8s;
+}
+.second-item:hover .a {
+	fill: rgb(50, 188, 255);
+	transition: 0.8s;
+}
+.second-item .l {
+	transition: 0.8s;
+}
+.second-item:hover .l {
+	fill: rgb(50, 188, 255);
+	transition: 0.8s;
+}
+.second-item .e {
+	transition: 0.8s;
+}
+.second-item:hover .e {
+	fill: rgb(50, 188, 255);
+	transition: 0.8s;
+}
+.second-item .pink {
+	transition: 0.8s;
+}
+.second-item:hover .pink {
+	fill: rgb(255, 177, 138);
+	transition: 0.8s;
+}
+.second-item .dark-blue {
+	transition: 0.8s;
+}
+.second-item:hover .dark-blue {
+	fill: darkblue;
+	transition: 0.8s;
+}
+.second-item .white {
+	transition: 0.8s;
+}
+.second-item:hover .white {
+	fill: white;
+	transition: 0.8s;
+}
+.second-item .orange {
+	transition: 0.8s;
+}
+.second-item:hover .orange {
+	fill: sandybrown;
+	transition: 0.8s;
+}
+.second-item .silver {
+	transition: 0.8s;
+}
+.second-item:hover .silver {
+	fill: silver;
+	transition: 0.8s;
 }
