@@ -35,8 +35,21 @@
 	.readmore:hover {
 		cursor: pointer;
 	}
+	.g:hover {
+		background-color: blue;
+		color: white;
+		transition: 0.8s;
+
+	}
+	.fourth-box:hover {
+		box-shadow: 0 0 40px 5px rgba(0,0,0,0.7);
 }
-@media all and (max-width: 768px) {
+	.fourth-item:hover {
+		transform: scale(1.05);
+		transition: 0.8s;
+	}
+}
+@media all and (max-width: 938px) {
 
 	.nav-container{
 		overflow: auto;
