@@ -1,0 +1,76 @@
+* {
+	padding: 0;
+	margin: 0;
+	/*правила вычесления размеров элемента: по границе элемента*/
+	box-sizing: border-box;
+	-moz-box-sizing: box;
+	-webkit-box-sizing: border-box;
+}
+html {
+	font-size: 10px;
+}
+body {
+	background-size: cover;
+	background-color: #eee;
+	background-image: url(https://million-wallpapers.ru/wallpapers/4/14/9599829852371276923.jpg)
+}
+.main {
+	background-color: white;/*Цвет фона*/
+	width: 90%;/*Ширина*/
+	max-width: 1000px;/*Максимальная Ширина*/
+	margin: auto;/*Отступ везде одинаковый*/
+	box-shadow: 0 0 30px 5px rgba(155,255,152);/*Тень класса*/
+	display: flex;/*Если содержимое не влазит, перемещается на новую строчку*/
+	flex-wrap: wrap;/*Если содержимое не влазит, перемещается на новую строчку*/
+	margin-top: 20px; /*Отступ сверху*/
+	border-radius: 10px;/*Закруглённые углы рамки*/
+	
+}
+.item {
+	background-position: center;/*Позиция фона*/
+	background-size: cover; /*/ИЛИ*background-size: 100% 100%;*/
+	width: 100%;
+	height:100%;/*Высота*/
+}
+.img_link {
+	display: block;/*Тип дисплея*/
+	max-height: 265px;/*макс Высота*/
+	max-width: 490px;/*макс ширина*/
+	width: calc(95vw / 2 - 10px);/*высчитывание ширины*/
+	height: calc(90vh / 16*9);/*высчитывание Высоты*/
+	margin: 5px;
+	/*opacity: 0.7;*/
+	transition: 1s;
+	}
+p {
+	font-size: 10rem;/*Размер текста*/
+	font-family: 'Montserrat', sans-serif;/*Семья текста*/
+
+	
+}
+.b {
+	border: double rgb(83,103,182);/*Рамка*/
+	border-width: 20px;/*Ширина рамки*/
+	width: 90%;
+	margin: auto;
+	border-radius: 10px;
+	margin-top: 10px;
+	background-color: pink;
+	box-shadow: 0 0 30px 5px rgba(0,0,255,0.5);
+	text-align: center;
+	width: calc(100% - 10px);
+}
+a {
+	border-radius: 10px;
+}
+.imggg {
+	display: block;
+	max-height: 600px;/*макс Высота*/
+	max-width: 600px;/*макс ширина*/
+	width: calc(95vw / 2 - 10px);/*высчитывание ширины*/
+	height: calc(90vh / 16*9);/*высчитывание Высоты*/
+	margin: 5px;
+	width: 400px;
+	margin: auto;
+	margin-top: 50px;
+	}

@@ -47,9 +47,13 @@ html {
 .logo {
 	font-size: 1.8rem;
 	font-weight: bold;
-	width: 200px;
-	
-	
+	width: 150px;
+	border: 2px purple;
+	border-radius: 10px;
+	background-color: purple;
+	text-align: center;
+	color: white;
+	transition: 0.8s;
 }
 .search-container {
 	width: 15%;
@@ -141,9 +145,9 @@ html {
 }
 .img {
 	display: block;
-	
-
+	margin: auto;
 }
+
 .img>img {
 	align-items: center;
 	width: 50px;
@@ -353,7 +357,7 @@ svg {
 	font-size: 2rem;
 	border: 2px solid #FFE340;
 	padding: 5px 10px;
-	width: 25%;
+	width: 20%;
 	cursor: pointer;
 }
 .tabs>label[for="tab_2"] {
@@ -362,13 +366,17 @@ svg {
 .tabs>label[for="tab_3"] {
 	margin-left: 20px;
 }
+.tabs>label[for="tab_4"] {
+	margin-left: 20px;
+}
 .tabs>input:checked + label {
 	background-color: #FFE340;
-	color: white;	
+	color: rgb(84, 116, 254);	
 }
 #tab_1:checked ~ #txt1, 
 #tab_2:checked ~ #txt2,
-#tab_3:checked ~ #txt3 {display: block;}
+#tab_3:checked ~ #txt3,
+#tab_4:checked ~ #txt4 {display: block;}
 
 .galery-box {
 	display: flex;
@@ -379,4 +387,17 @@ svg {
 .img {
 	width: 30%;
 	margin-top: 3%;
+}
+.tabss {
+	background-color:black;
+	color: purple;
+	transition: 0.8s ease-in;
+}
+.tabss:hover {
+	background-color: purple;
+	color: black;
+	transition: 0.8s ease-in;
+}
+.third {
+	background-color: #eee;
 }
