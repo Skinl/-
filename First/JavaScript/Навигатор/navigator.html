@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Навигатор</title>
+</head>
+<body  style="background-image: url(https://dcassetcdn.com/design_img/2863132/611628/611628_15932347_2863132_ec54fecc_image.png);margin-bottom: 1500px;">
+	<!-- Спрашиваем у пользователя дорогу от дома до школы -->
+	<!-- Вводит ориентиры -->
+	<!-- Выводим путь от дома до школы и обратно -->
+	<script>
+		let orient = ['Дом'];
+		// Объясняем что делать
+		let ans = prompt('Введи ориентиры от дома до школы.\nКогда решишь закончить напиши "Школа".');
+		if(ans == null) {
+			alert("Ну и ладно")
+		}
+		else {
+			// Делаем все символы маленькими
+			ans = ans.toLowerCase();
+			orient.push(ans);
+			while(ans != "школа") {
+				// Выводить номер ориентира
+				// Считываем новый ориентир (новое слово)
+				let r = orient.length-1
+				ans = prompt('Введи ориентир номер ' + r + "...");
+				// если ориентир null, то ans = "школа"
+				if(ans == null) {
+				ans = "школа";
+				}
+				// добавляем в массив
+				orient.push(ans);
+			}
+			// Выводим путь от дома до школы
+			alert(orient.join('->'))
+			// Вывести обратную дорогу
+			var h = confirm("Хотите увидеть обратную дорогу?")
+			if(h == false) {
+				alert("Ну и ладно")
+			}
+			if ( h != false) {
+				let res = [];
+			for(let i = orient.length-1; i >= 0; i--){
+				res.push(orient[i]);
+			}
+			alert(res.join("->"))
+			// console.log(orient[i]);
+			
+			}
+		
+			
+		}
+	</script>
+</body>
+</html>
