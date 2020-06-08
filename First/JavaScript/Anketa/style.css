@@ -1,0 +1,64 @@
+body{
+	padding: 0;
+	margin: 0; 
+	background: linear-gradient(rgba(100,321,213,0.7),rgba(250,231,134,0.7));
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+form{
+	width: 70%;
+	margin: auto;
+}
+h1{
+	text-align: center;
+	margin-bottom: 0;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+p{
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 50px;
+
+}
+em{
+	color: red;
+	font-weight: bolder;
+}
+legend{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+fieldset{
+	margin-bottom: 20px;
+	padding: 10px;
+	font-family: 'Playfair Display', serif;
+}
+input,textarea{
+	width: 300px;
+	outline: none;
+	padding: 3px 15px;
+	border-radius: 5px;
+}
+label{
+	width: 80px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 7px;
+}
+input[type="radio"] {
+	width: 50px;
+}
+input[type="date"] {
+	width: 125px;
+}
+select{
+	width: 200px;
+	outline-color: green;
+	padding: 3px 15px;
+	border-radius: 5px;
+}
+textarea{
+	margin: 0 10px;
+	height: 100px;
+	width: 500px;
+	resize: none;
+}

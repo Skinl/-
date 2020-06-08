@@ -3,7 +3,7 @@ let primer ='';
 function equal() {
 	let res = eval(primer)
 	$('#test').text(res)
-	primer = '';
+	primer = res;
 }
 
 function eraseCompletely(){

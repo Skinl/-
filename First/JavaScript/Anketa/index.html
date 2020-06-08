@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Анкета</title>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+
+	<form action="">
+		<h1>Анкета на работу в GOOGLE</h1>
+		<p><i>Пожалуйста, заполните анкету. Обязательные поля помечены <em>*</em>.</i></p>
+		<fieldset>
+			<legend>Контактная информация</legend>
+			<label for="s_name">Фамилия<em>*</em></label>
+			<input type="text" id="s_name" placeholder="Иванов" autocomplete="off" required>
+			<br>
+			<label for="name">Имя<em>*</em></label>
+			<input type="text" id="name" placeholder="Иван" autocomplete="off" required>
+			<br>
+			<label for="f_name">Отчество</label>
+			<input type="text" id="f_name" placeholder="Иванович" autocomplete="off">
+			<br>
+			<label for="phone">Телефон<em>*</em></label>
+			<input type="text" id="phone" placeholder="+7-(978)-123-32-32" autocomplete="off" required>
+			<br>
+			<label for="email">E-mail<em>*</em></label>
+			<input type="email" id="email" placeholder="example@mail.ru" required>
+
+		</fieldset>
+		<fieldset>
+			<legend>Персональная информация</legend>
+
+			<label for="date">Дата рождения<em>*</em></label>
+			<input type="date" id="date" min="1900-01-01" required autocomplete="off">
+			<br>
+			<label for="genger">Пол</label>
+			<label for="genger1"><input type="radio" id="genger1" name="gender">Мужской</label>
+			<label for="genger2"><input type="radio" id="genger2" name="gender">Женский</label>
+			<label for="genger3"><input type="radio" id="genger3" name="gender" checked>Другой</label>
+			<br>
+			<label for="city">Ваш город</label>
+			<select id="city">
+				<option value="default" selected disabled>Выберите ваш город</option>
+				<option value="Simf">Симферополь</option>
+				<option value="Sevas">Севастополь</option>
+				<option value="Yalta">Ялта</option>
+				<option value="Bahchi">Бахчисарай</option>
+				<option value="Tver">Тверь</option>
+
+
+			</select>
+			<br>
+			<label for="about">Расскажите о себе</label>
+			<textarea placeholder="Я умею.." id="about"></textarea>
+		</fieldset>
+
+		<br>
+		<!-- <input type="submit" value="Отправить"> -->
+	</form>
+		<button onclick="main()" style="width: 100px; height: 100px;"></button>
+	
+</body>
+</html>
