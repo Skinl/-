@@ -31,12 +31,24 @@ fieldset{
 	margin-bottom: 20px;
 	padding: 10px;
 	font-family: 'Playfair Display', serif;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	padding: 30px;
+}
+.photo{
+	font-weight: bolder;
 }
 input,textarea{
 	width: 300px;
 	outline: none;
 	padding: 3px 15px;
 	border-radius: 5px;
+}
+input[type="checkbox"] {
+    outline: none;
 }
 label{
 	width: 80px;

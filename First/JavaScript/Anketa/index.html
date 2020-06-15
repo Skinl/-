@@ -60,9 +60,68 @@
 		</fieldset>
 
 		<br>
+		<fieldset>
+			<legend>Выберите языки программирования, которые вы изучали</legend>
+			<input name="lang" type="checkbox" id="HTML" autocomple>
+			<label  for="HTML">HTML</label>
+			
+			<input name="lang" type="checkbox" id="CSS"  autocomplete="off">
+			<label  for="CSS">CSS</label>
+			
+			<input name="lang" type="checkbox" id="JavaScript"  autocomplete="off">
+			<label  for="JavaScript">JavaScript</label>
+			
+			<input name="lang" type="checkbox" id="PHP"  autocomplete="off">
+			<label  for="PHP">PHP</label>
+			
+			<input name="lang" type="checkbox" id="Pascal" >
+			<label  for="Pascal">Pascal</label>
+			<br>
+			<input name="lang" type="checkbox" id="Basic"  autocomplete="off">
+			<label  for="Basic">Basic</label>
+			
+			<input name="lang" type="checkbox" id="Python"  autocomplete="off">
+			<label  for="Python">Python</label>
+			
+			<input name="lang" type="checkbox" id="C++"  autocomplete="off">
+			<label  for="C++">C++</label>
+			
+			<input name="lang" type="checkbox" id="C#"  autocomplete="off">
+			<label  for="C#">C#</label>
+			
+			<input name="lang" type="checkbox" id="Dylan" >
+			<label  for="Dylan">Dylan</label>
+			<br>
+			<input name="lang" type="checkbox" id="Delphi"  autocomplete="off">
+			<label  for="Delphi">Delphi</label>
+			
+			<input name="lang" type="checkbox" id="Erlang"  autocomplete="off">
+			<label  for="Erlang">Erlang</label>
+			
+			<input name="lang" type="checkbox" id="Scheme"  autocomplete="off">
+			<label  for="Scheme">Scheme</label>
+			
+			<input name="lang" type="checkbox" id="Haskell"  autocomplete="off">
+			<label  for="Haskell">Haskell</label>
+			
+			<input name="lang" type="checkbox" id="Zonnon" >
+			<label  for="Zonnon">Zonnon</label>
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend>Дополнительно</legend>
+			<label class="photo">Фото профиля:</label>
+			<input type="file" required id="photo" accept="image/*" onchange="readURL(this)">
+			<img id="picture" src="https://avatars.mds.yandex.net/get-znatoki/1368855/2a0000016cc1fb6175fa439bc6ab108427ae/w480">
+			<br>
+			<label class="">Выберите цвет обводки:</label>
+			<input type="color">
+		</fieldset>
 		<!-- <input type="submit" value="Отправить"> -->
 	</form>
 		<button onclick="main()" style="width: 100px; height: 100px;"></button>
+		<button onclick="night()" style="width: 50px; height: 50px;">Night</button>
+		<button onclick="day()" style="width: 50px; height: 50px;">Day</button>
 	
 </body>
 </html>
