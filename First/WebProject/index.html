@@ -6,6 +6,8 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/media.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:600i&display=swap" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+	<script src="script.js"></script>
 	<title>Зоомагазин</title>
 </head>
 <body>
@@ -364,12 +366,14 @@
 					</div>
 				</div>
 				<div class="form-box">
+					<form onsubmit="main(); return false">
 					<div class="input">
-						<input type="text" placeholder="Введите ваше Имя...">
-						<input type="text " placeholder="Введите Ваш E-Mail...">
-						<textarea id="msg" placeholder="Ваше сообщение..." maxlength="300"></textarea>
-						<button class="send">Отправить</button>
+						<input required autocomplete="off" id="name" type="text" placeholder="Введите ваше Имя...">
+						<input required autocomplete="off" id="email" type="email" placeholder="Введите Ваш E-Mail...">
+						<textarea required autocomplete="off" id="msg" placeholder="Ваше сообщение..." maxlength="300"></textarea>
+						<input type="submit" value="Отправить" class="send">
 					</div>
+					</form>
 				</div>
 				
 			</div>

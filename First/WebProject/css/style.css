@@ -550,4 +550,9 @@ footer {
 	color: white;
 	font-size: 2rem;
 }
+.msg {
+	font-size: 20px;
+	font-weight: bold;
+	margin: auto;
+}
 

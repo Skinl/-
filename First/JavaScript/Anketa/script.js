@@ -11,6 +11,7 @@ function main() {
 	// проверка если возраст -1
 	if (age < 0 ) age = 0
 
+
 	let genderId = $('input[name="gender"]:checked')[0].id
 	let gender = $('label[for = "'+genderId+'"]').text()
 	
@@ -35,19 +36,19 @@ function main() {
 
 	let main = $('.main')
 
-	main.append('<img id="face" src"'+pictureLink+'">')
+	main.append('<img id="face" src="'+pictureLink+'">')
 	$('#face').css('border-color', color);
 
-	makeDivs(main, "фамилия", s_name)
-	makeDivs(main, "Имя", name)
-	if (f_name) makeDivs(main, "Отчество", f_name)
-	makeDivs(main, "Телефон", phone)
-	makeDivs(main, "E-mail", email)
-	makeDivs(main, "Возраст", age)
-	makeDivs(main, "Пол", gender)
-	if (city) makeDivs(main, "Город", city)
-	if (about) makeDivs(main, "О себе", about)
-	if (images.length > 0) main.append('<div class="line">'+images+'</div>')
+	makeDivs(main, "Фамилия:", s_name)
+	makeDivs(main, "Имя:", name)
+	if (f_name) makeDivs(main, "Отчество:", f_name)
+	makeDivs(main, "Телефон:", phone)
+	makeDivs(main, "E-mail:", email)
+	makeDivs(main, "Возраст:", age)
+	makeDivs(main, "Пол:", gender)
+	if (city) makeDivs(main, "Город:", city)
+	if (about) makeDivs(main, "О себе:", about)
+	if (images.length > 0) main.append('<div><div class="line">'+images+'</div>')
 }
 function readURL(input) {
 	if (input.files && input.files[0]) {
