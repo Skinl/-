@@ -12,6 +12,6 @@ function main() {
 	$('#msg').remove()
 	$('.send').remove()
 	$('.input').append('<div class="msg">Ваше сообщение успешно отправлено!<div>')
-
+	return false
 }
 
