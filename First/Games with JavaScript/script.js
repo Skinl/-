@@ -19,11 +19,11 @@ ctx.fillStyle = gradient;
 
 // ctx.clearRect(120, 120, 250, 100);
 
-ctx.closePath()
+
 // Линии и дуги
 ctx.strokeStyle = "black";
 ctx.fillStyle = "white"
-ctx.beginPath();
+
 for(let i = 0; i < 3; i++) {
  const	y = 400
 ctx.arc(250, y-145*i, 75-5*i, 0, 360, false);	
@@ -41,7 +41,7 @@ for (let i = 0;  i < 2; i++) {
 	ctx.fillRect(265-i*40, 80, 10, 10)
 
 }
-ctx.closePath()
+
 ctx.arc(250, 110, 5, 0, 360, false);
 ctx.fill();
 for (let i = 0;  i < 10; i++) {

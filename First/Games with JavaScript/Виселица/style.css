@@ -1,0 +1,139 @@
+body {
+	background-image: url(viselisa.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+h1 {
+	text-align: center;
+	text-shadow: 1px 1px 2px black, 0 0 1em red;
+	color: rgb(167, 180, 232);
+	font-size: 50px;
+	margin-top: 80px;
+}
+label {
+	display: block;
+	text-align: center;
+}
+
+#name,  #skip, #play {
+	display: block;
+	margin: auto;
+}
+#name {
+	border: 2px rgb(167, 180, 232) solid;
+	outline: none;
+	width: 300px;
+	height: 50px;
+	margin-top: 100px;
+	background-image: url(https://avatanplus.com/files/resources/original/57d01fe442b6b15704fc93b1.jpg);
+	background-size: cover;
+	font-size: 30px;
+	color: #334690;
+}
+#play{
+	margin-top: 140px;
+	width: 125px;
+	height: 75px;
+	border: 3px solid  rgb(167, 180, 232);
+	outline: none;
+	background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+
+	}
+#play:disabled {
+	border: 2px solid  rgb(160, 173, 225);
+	background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%), linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%), linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+
+}
+#play:hover{
+	border: 4px solid rgb(174, 187, 239);
+	font-size: 12px;
+
+}
+
+.a {
+	font-size: 10px;
+	color: red;
+}
+label {
+	
+	font-weight: bold;
+	color: purple;
+	margin-top: 20px;
+}
+#skip {
+	margin-top: 5px;
+	width: 15px;
+	height: 15px;
+}
+#tabu {
+	display: none;
+	color: red;
+	background-color: black;
+	word-break: break-all;
+}
+.wrapper {
+	height: 200px;
+}
+#canv {
+	position: absolute;
+    top: 100px;
+}
+#letter {
+	display: block;
+	margin: auto;
+	margin-top: 53.4px;
+	outline: none;
+	width: 50px;
+	height: 50px;
+	font-size: 30px;
+	padding-left: 25px;
+	border: 2px dashed black;
+}
+
+#game {
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+	outline: none;
+	background-color: red;
+	color: white;
+	height: 100px;
+	font-weight: bold;
+
+}
+#secret {
+	
+}
+#wrong {
+	color: red;
+	text-align: center;
+	font-weight: bold;
+}
+
+body *::-moz-selection {
+  background-color: red;
+  color: #50c878;
+}
+
+body *::-webkit-selection {
+  background-color: red;
+  color: #50c878;
+}
+
+body *::selection {
+  background-color: red;
+  color: #50c878;
+}
+
+#end {
+	text-align: center;
+	color: red;
+	font-size: 50px;
+
+}
+#happy-end {
+	text-align: center;
+	color: green;
+	font-size: 50px;
