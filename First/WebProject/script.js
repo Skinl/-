@@ -3,9 +3,9 @@ function main() {
 	let name = $('#name').val()
 	let email = $('#email').val()
 	let msg = $('#msg').val()
-	console.lodg(name)
-	console.lodg(email)
-	console.lodg(msg)
+	console.log(name)
+	console.log(email)
+	console.log(msg)
 
 	$('#name').remove()
 	$('#email').remove()

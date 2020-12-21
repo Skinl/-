@@ -32,10 +32,11 @@ function checkName(str) {
 
 	if ( (len2 > 0 && len3 < 10 && !isTabu) || skip.length != 0 ) {
 		$('#play').prop('disabled', false)
+		$('#play').addClass('play')
 	}
 	else {
 		$('#play').prop('disabled', true)
-
+		$('#play').removeClass('play')
 	}
 } 
 
@@ -89,6 +90,7 @@ function main() {
 	inp.focus();
 }
 function game() {
+
 	let letter = $('#letter').val()
 	console.log(letter)
 	let isGuessed = false;
@@ -99,6 +101,7 @@ function game() {
 			guess--
 		}
 	}
+
 	if (guess == 0) {
 	// Победа
 		HappyEnd()

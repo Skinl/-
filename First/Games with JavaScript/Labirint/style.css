@@ -1,3 +1,17 @@
 #canv {
 	background-color: white;
 }
+.wrap {
+	display: flex;
+	flex-wrap: wrap;
+	width: 300px;
+	justify-content: space-between;
+}
+label, input, span {
+	width: 30%;
+	text-align: center;
+}
+button {
+	margin: auto;
+	margin-top: 20px; 
+}

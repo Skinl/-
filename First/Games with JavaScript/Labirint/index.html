@@ -8,6 +8,18 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
 </head>
 <body>
-	<button id="play" onclick="play()">Играть</button>
+	<h1 style="">Лабиринт</h1>
+	<div class="wrap">
+		<label for="width">Ширина</label>
+		<span>X</span>
+		<label for="height">Высота</label>
+		<input type="range" min="5" max="50" value="5" oninput="$('#w').text(this.value)" id="width">
+		<span>Y</span>
+		<input type="range" min="5" max="50" value="5" oninput="$('#h').text(this.value)" id="height">
+		<span id="w">5</span>
+		<button id="play" onclick="play()">Играть</button>
+		<span id="h">5</span>
+
+	</div>
 </body>
 </html>
