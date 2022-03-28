@@ -1,0 +1,55 @@
+body {
+	background-color: mediumslateblue;
+}
+
+form, .butt {
+	width: 500px;
+	margin:auto;
+	height: 50px;
+}
+.register_name {
+	margin-top: 10%;
+	text-align: center;
+	font-weight:bold;
+	color: white;
+	margin-bottom: 30px;
+}
+
+.form-control, .butt {
+	height: 50px;
+	background-color: pink;
+	color: white;
+	margin-bottom: 15px;
+	font-weight: bold;
+	font-size: 20px;
+	caret-color:pink;
+
+}
+.div {
+margin: auto;
+margin-top: 10%;
+width: 600px; 
+height: 650px; 
+border: 2px solid red;
+border-radius: 10px;
+background-color: moccasin;
+}
+#name, #login, #email, #password:focus { 
+	background-color: pink;
+	color: white;
+}
+.butt {
+	font-weight: bold;
+	font-size: 25px;
+	border-radius: 15px;
+}
+input[type="text"]::-webkit-input-placeholder {
+	color: white;
+   } 
+input[type="email"]::-webkit-input-placeholder {
+	color: white;
+   } 
+input[type="password"]::-webkit-input-placeholder {
+	color: white;
+   } 
+}
